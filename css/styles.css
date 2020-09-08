@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+
+/* =========== General styles ============== */
+.blue-text{
+    color: #2b53b3
+}
+img{
+    width: 100%;
+}
+
+h5{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.font-cap{
+    font-family: 'Satisfy', cursive;
+}
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+/* Header */
+.site-header{
+    background: url(../img/header.jpg) no-repeat center center/cover;
+    height: 500px; 
+}
+.site-header .d-flex{
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-self: center;
+}
+.site-header .d-flex h3{
+    font-size: 30px;
+    text-shadow: 1px 2px 3px #8fa9ce;
+}
+
+/*  Navbar */
+
+.navbar-brand img{
+    width: 150px;
+}
+.navbar-nav .nav-item.active .nav-link{
+    color: #fff;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #b1c1d8;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-toggler {
+    background-color: #2b53b3;
+}
+
+/*  Parallax */
+.parallax{
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.site-main{
+    margin-top: 100px;
+}
+.site-main h3{
+    font-weight: 700;
+}
+.amenidades img{
+    border-radius: 5px;
+}
+.amenidades p{
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #e1e8f3;
+}
+.features h3{
+    text-shadow: 1px 2px 3px #dee9f8;
+    padding-left: 35px;
+}
+.features ul{
+    margin: 0px;
+    /* padding: 0px; */
+}
+.features ul li{
+    list-style: none;
+}
+
+
+/* ===== Gallery ===== */
+.gallery .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
