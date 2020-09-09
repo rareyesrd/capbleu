@@ -19,6 +19,14 @@ h5{
 body{
     font-family: 'Oxygen', sans-serif;
 }
+h3{
+    text-shadow: 1px 2px 3px #dee9f8;
+    padding-left: 35px;
+}
+.icon {
+    width: 80px;
+    margin: 30px 0px;
+}
 /* Header */
 .site-header{
     background: url(../img/header.jpg) no-repeat center center/cover;
@@ -34,7 +42,9 @@ body{
     font-size: 30px;
     text-shadow: 1px 2px 3px #8fa9ce;
 }
-
+.logo p{
+    font-size: 12px;
+}
 /*  Navbar */
 
 .navbar-brand img{
@@ -47,6 +57,14 @@ body{
     color: #b1c1d8;
     font-size: 20px;
     font-weight: bold;
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-nav .nav-item.active .nav-link {
+    margin-right: 30px;
 }
 .navbar-toggler {
     background-color: #2b53b3;
@@ -63,6 +81,7 @@ body{
 }
 .site-main h3{
     font-weight: 700;
+    font-size: 45px;
 }
 .amenidades img{
     border-radius: 5px;
@@ -74,10 +93,7 @@ body{
     text-transform: uppercase;
     text-shadow: 1px 1px 2px #e1e8f3;
 }
-.features h3{
-    text-shadow: 1px 2px 3px #dee9f8;
-    padding-left: 35px;
-}
+
 .features ul{
     margin: 0px;
     /* padding: 0px; */
@@ -93,3 +109,31 @@ body{
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
 }
+.contacts{
+    text-align: center;
+}
+.contacts h4 {
+    line-height: 1.3;
+    background: -webkit-gradient(linear, left top, right top, from(#000), to(#000));
+    background: linear-gradient(to right, #000, #000);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Satisfy', cursive;
+}
+.contacts a{
+    color: #000;
+}
+.ventajas ul li{
+    font-size: 20px;
+}
+/* =====  footer ====== */
+.site-footer{
+    background-color: #4a79bb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+.site-footer a{
+    color: #fff;
+}
+
