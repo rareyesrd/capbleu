@@ -64,6 +64,7 @@ h3{
     justify-content: space-between;
 }
 .navbar-nav .nav-item.active .nav-link {
+    margin-left: 30px;
     margin-right: 30px;
 }
 .navbar-toggler {
